@@ -6,8 +6,8 @@
           <div class="left wow fadeInLeft" data-wow-duration="1s">
             <p>
               Developed with love by
-              <a href="https://themeforest.net/user/Codeefly" target="_blank"
-                >Codeefly</a
+              <a href="https://mynsit.com/" target="_blank"
+                >alproo</a
               >
               &copy; {{ new Date().getFullYear() }}
             </p>

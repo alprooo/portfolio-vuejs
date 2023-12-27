@@ -9,20 +9,20 @@
         <div class="content">
           <div class="details">
             <div class="hello">
-              <h3 class="orangeText">Hello, I'm</h3>
+              <h3 class="orangeText">Hello, It's me</h3>
             </div>
             <div class="name">
-              <h3>James Smith</h3>
+              <h3>James Bond</h3>
             </div>
             <div class="job">
               <p>
-                A <span class="greenText">Creative Designer</span> From
-                <span class="purpleText">New York</span>
+                A <span class="greenText">Creative Designer</span>
+                <!-- <span class="purpleText">Indonesia</span> -->
               </p>
             </div>
             <div class="text">
               <p>
-                I'm creative designer based in New York, and I'm very passionate
+                I'm creative designer based in Indonesia, and I'm very passionate
                 and dedicated to my work.
               </p>
             </div>
@@ -32,18 +32,18 @@
               </div>
               <div class="social">
                 <ul>
-                  <li>
+                  <!-- <li>
                     <a href="#"><i class="icon-facebook-1"></i></a>
-                  </li>
+                  </li> -->
                   <li>
                     <a href="#"><i class="icon-twitter-1"></i></a>
                   </li>
                   <li>
                     <a href="#"><i class="icon-linkedin-1"></i></a>
                   </li>
-                  <li>
-                    <a href="#"><i class="icon-behance"></i></a>
-                  </li>
+                  <!-- <li>
+                    <a href="#"><i class="icon-sitemap"></i></a>
+                  </li> -->
                 </ul>
               </div>
             </div>

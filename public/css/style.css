@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-weight:500;
+	font-weight:700;
 	line-height: 1.3;
 	font-family: 'Jost', sans-serif;
 	color: #000;
@@ -132,8 +132,7 @@ h6 { font-size: 16px; }
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-
-#preloader{
+#preloader {
     position: fixed;
     left: 0;
     top: 0;
@@ -142,25 +141,28 @@ h6 { font-size: 16px; }
     z-index: 99999;
     display: flex;
 }
+
 #preloader:before,
-#preloader:after{
+#preloader:after {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     z-index: -1;
     background-color: #000;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
-#preloader:after{
-    left: auto;
-    right: 0;
+
+#preloader:after {
+    top: auto;
+    bottom: 0;
 }
-#preloader .loader_line{
+
+#preloader .loader_line {
     margin: auto;
     width: 1px;
     height: 250px;
@@ -170,92 +172,96 @@ h6 { font-size: 16px; }
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
 }
-.loader_line:before{
+
+.loader_line:before {
     content: '';
     position: absolute;
     left: 0;
     top: 50%;
-    width: 1px;
-    height: 0%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+    width: 0%;
+    height: 1px;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
     background-color: #fff;
-    -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
-    -o-animation: lineheight 1000ms ease-in-out 0s forwards;
-    animation: lineheight 1000ms ease-in-out 0s forwards;
+    -webkit-animation: linewidth 1000ms ease-in-out 0s forwards;
+    -o-animation: linewidth 1000ms ease-in-out 0s forwards;
+    animation: linewidth 1000ms ease-in-out 0s forwards;
 }
-.loader_line:after{
+
+.loader_line:after {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
-    width: 1px;
-    height: 100%;
+    width: 100%;
+    height: 1px;
     background-color: #999999;
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-    transform: translateY(-100%);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation: lineround 1200ms linear 0s infinite;
     -o-animation: lineround 1200ms linear 0s infinite;
     animation: lineround 1200ms linear 0s infinite;
     animation-delay: 2000ms;
 }
 
-@keyframes lineheight{
-    0%{
-        height: 0%;
-    }
-    100%{
-        height: 100%;
+@keyframes linewidth {
+    to {
+        width: 100%;
     }
 }
 
-@keyframes lineround{
-    0%{
-        -webkit-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-        -o-transform: translateY(-100%);
-        transform: translateY(-100%);
+@keyframes lineround {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
     }
-    100%{
-        -webkit-transform: translateY(200%);
-        -ms-transform: translateY(200%);
-        -o-transform: translateY(200%);
-        transform: translateY(200%);
+    100% {
+        -webkit-transform: translateX(200%);
+        -ms-transform: translateX(200%);
+        -o-transform: translateX(200%);
+        transform: translateX(200%);
     }
 }
 
-/*hiding all*/
-.preloaded .loader_line:after{
+/* Hiding all */
+.preloaded .loader_line:after {
     opacity: 0;
 }
-.preloaded  .loader_line{
+
+.preloaded .loader_line {
     opacity: 0;
-    height: 100%!important;
+    width: 100%!important;
 }
+
 .preloaded:before,
-.preloaded:after{
+.preloaded:after {
     -webkit-animation: preloadedzero 300ms ease-in-out 500ms forwards;
     -o-animation: preloadedzero 300ms ease-in-out 500ms forwards;
     animation: preloadedzero 300ms ease-in-out 500ms forwards;
 }
-@keyframes preloadedzero{
-    0%{
-        width: 50%;
+
+@keyframes preloadedzero {
+    0% {
+        height: 50%;
     }
-    100%{
-        width: 0%;
+    100% {
+        height: 0%;
     }
 }
-.dizme_tm_section{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
+
+.dizme_tm_section {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
 }
+
 
 /*---------------------------------------------------*/
 /*	02) DIZME MOBILE MENU
