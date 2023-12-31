@@ -50,7 +50,7 @@
           </div>
           <div class="avatar">
             <div class="image">
-              <img src="/img/slider/avatar.png" alt="" />
+              <img src="/img/slider/Frame-84.png" alt="" />
               <span
                 class="skills illustrator anim_moveBottom"
                 v-html="ai"

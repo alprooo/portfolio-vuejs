@@ -9,11 +9,10 @@
               data-wow-duration="1s"
               data-align="left"
             >
-              <span>Design is Life</span>
-              <h3>I Develop Skills Regularly to Keep Me Update</h3>
+              <span>Design is art of presenting idea</span>
+              <h3>I develop skills regularly to keep me update</h3>
               <p>
-                Most common methods for designing websites that work well on
-                desktop is responsive and adaptive design
+                I like to design things that look clean and amazingly awesome
               </p>
             </div>
             <div class="dodo_progress wow fadeInUp" data-wow-duration="1s">
