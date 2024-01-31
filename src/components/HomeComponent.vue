@@ -12,7 +12,7 @@
               <h3 class="orangeText">Hello, It's me</h3>
             </div>
             <div class="name">
-              <h3>Alfian R. Saputra</h3>
+              <h3>Alfian R. Saputraa</h3>
             </div>
             <div class="job">
               <p>
