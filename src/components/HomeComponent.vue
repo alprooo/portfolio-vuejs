@@ -12,7 +12,7 @@
               <h3 class="orangeText">Hello, It's me</h3>
             </div>
             <div class="name">
-              <h3>Alfian R. Saputraa</h3>
+              <h3>Alfian R. Saputra</h3>
             </div>
             <div class="job">
               <p>
@@ -22,8 +22,7 @@
             </div>
             <div class="text">
               <p>
-                I'm creative designer based in Indonesia, and I'm very passionate
-                and dedicated to my work.
+                ----
               </p>
             </div>
             <div class="button">
