@@ -22,7 +22,7 @@
             </div>
             <div class="text">
               <p>
-                ----
+                Empowered by a relentless pursuit of excellence, I bring projects to fruition. Let's build a brighter future together.
               </p>
             </div>
             <div class="button">
@@ -49,7 +49,7 @@
           </div>
           <div class="avatar">
             <div class="image">
-              <img src="/img/slider/Frame-84.png" alt="" />
+              <img src="/img/slider/avatar.png" alt="" />
               <span
                 class="skills illustrator anim_moveBottom"
                 v-html="ai"
